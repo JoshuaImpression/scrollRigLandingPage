@@ -52,7 +52,6 @@ export default function App() {
         config={{ syncTouch: true }} // Lenis setting to force smooth scroll on touch devices
       />
       <article>
-        <EffectsToggle setEnabled={setEnabled} enabled={enabled} />
         <header className="container">
           <div className="headerLayout">
             <h2>
@@ -61,8 +60,7 @@ export default function App() {
               </Headline>
             </h2>
             <BodyCopy as="p" className="subline">
-              Progressively enhance your React website with WebGL using
-              r3f-scroll-rig, React Three Fiber and Three.js
+              Impression is now Show + Tell, a digital-first branding & web product agency expertly creating impactful experiences for high-growth brands.
             </BodyCopy>
           </div>
         </header>
@@ -112,7 +110,7 @@ export default function App() {
         </section>
         <section>
           <ImageCube
-            src="images/maxim-berg-TcE45yIzJA0-unsplash.jpg"
+            src="images/image.png"
             className="JellyPlaceholder"
           />
         </section>

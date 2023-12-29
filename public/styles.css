@@ -281,7 +281,7 @@ a:focus-visible {
 @media screen and (min-width: 45em) {
   .frame {
     width: 100%;
-    height: 5vh;
+    height: 80px;
     display: grid;
     padding-top: 1.5rem;
     display: flex;
@@ -293,6 +293,12 @@ a:focus-visible {
 .frame a,
 .frame button {
   pointer-events: auto;
+}
+
+.frame__logo {
+  svg {
+    width: 130px;
+  }
 }
 
 .frame a:not(.frame__title-back) {
