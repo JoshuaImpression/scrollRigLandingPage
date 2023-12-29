@@ -56,7 +56,7 @@ export default function App() {
           <div className="headerLayout">
             <h2>
               <Headline wobble>
-                RESPONSIVE {enabled ? "WEBGL" : "HTML"}
+                IMMERSIVE DIGITAL EXPERIENCE AGENCY
               </Headline>
             </h2>
             <BodyCopy as="p" className="subline">
@@ -66,35 +66,24 @@ export default function App() {
         </header>
         <section className="container">
           <Image
-            src="images/maxim-berg-1_U2RcHnSjc-unsplash.jpg"
+            src="images/bloom.webp"
             className="ImageLandscape"
           />
         </section>
         <section className="container">
           <h3>
-            <Subtitle>We use CSS to create a responsive layout.</Subtitle>
-            <em>
-              <Subtitle>
-                A Canvas on top tracks DOM elements and enhance them with WebGL.
-              </Subtitle>
-            </em>
+            <Subtitle>Show + Tell is a digital-first branding and technology agency, 
+            enabling companies to connect with their audience, extend their reach and enjoy greater commercial success.</Subtitle>
           </h3>
-          <p>
-            <BodyCopy>
-              Try turning off WebGL using the button in the sticky header.
-              You’ll notice smooth scrolling is disabled, and all scroll-bound
-              WebGL effects disappears.
-            </BodyCopy>
-          </p>
         </section>
         <section className="ParallaxContainer">
           <Image
-            src="images/maxim-berg-qsDfqZyTCAE-unsplash-crop.jpg"
+            src="images/inga.webp"
             className="aspect-9_13"
             parallaxSpeed={1.08}
           />
           <Image
-            src="images/maxim-berg-ANuuRuCRRAc-unsplash.jpg"
+            src="images/launch-hero.webp"
             className="aspect-16_11"
             parallaxSpeed={0.92}
           />
@@ -102,36 +91,26 @@ export default function App() {
         <section className="container">
           <h4>
             <BodyCopy>
-              Thanks to Threejs we can also render 3D geometry or models. The
-              following image is replaced by a box. Try scrolling hard to make
-              it wiggle.
+              Our approach is a carefully crafted journey, ensuring that your brand stands out, connects with your target audience,
+              and enjoys greater commerical success.
             </BodyCopy>
           </h4>
         </section>
         <section>
           <ImageCube
-            src="images/image.png"
+            src="images/brand-cube.webp"
             className="JellyPlaceholder"
           />
         </section>
         <section className="container">
           <h3>
-            <Subtitle>Most websites use a mix of WebGL and HTML.</Subtitle>
+            <Subtitle>We are a full service & development agency based in Harrogate, London & Cambridge,</Subtitle>
             <em>
               <Subtitle>
-                However, the Lens refraction requires all images and text to be
-                WebGL.
+                working to elevate global brands and solve complex problems through brand & digital innovative solutions.
               </Subtitle>
             </em>
           </h3>
-          <p>
-            <a href="https://github.com/14islands/r3f-scroll-rig">
-              <BodyCopy>
-                You can find the r3f-scroll-rig library on Github. Please use
-                WebGL responsibly™.
-              </BodyCopy>
-            </a>
-          </p>
         </section>
         <footer>
           <CodropsFrame />

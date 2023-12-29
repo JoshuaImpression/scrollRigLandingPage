@@ -17,12 +17,13 @@ html {
   overscroll-behavior: contain;
   font-size: max(0.75rem, 0.8101851852vw);
 
-  color: #6e6bcd;
-  background: #ecedef;
+  color: #000000;
+  background: #ffffff;
 }
 
 ::selection {
-  background: rgba(110, 107, 205, 0.5);
+  background: rgba(0, 25, 255, 1);
+;
 }
 
 body {
@@ -45,16 +46,13 @@ body,
   padding-right: max(1.2rem, 40/1440 * 100vw);
 }
 
-article {
-  padding-top: 15vh;
-}
 
 section {
   margin: max(5px, 5vw) 0;
 }
 
 header {
-  height: 40vh;
+  height: calc(100vh - 120px);
   max-height: 50vw;
   display: flex;
   flex-direction: column;
@@ -91,17 +89,14 @@ h2 span {
 @media screen and (min-width: 64em) {
   .subline {
     position: absolute;
-    left: 50%;
+    /* left: 100%; */
     bottom: 1.5%;
+    right: 0;
     width: max(300px, 22vw);
     height: auto;
     top: auto;
     display: block;
   }
-}
-
-footer {
-  padding-top: max(2.5rem, 20vw);
 }
 
 .EffectsToggle {
@@ -297,7 +292,7 @@ a:focus-visible {
 
 .frame__logo {
   svg {
-    width: 130px;
+    width: 12vw;
   }
 }
 
