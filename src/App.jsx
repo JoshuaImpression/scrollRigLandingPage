@@ -1,7 +1,6 @@
 import React, { Suspense, useRef, useState } from "react";
 import { GlobalCanvas, SmoothScrollbar } from "@14islands/r3f-scroll-rig";
 import { Environment, Loader } from "@react-three/drei";
-
 import { BodyCopy, Headline, Subtitle } from "./Text";
 import { Image } from "./Image";
 import { ImageCube } from "./ImageCube";

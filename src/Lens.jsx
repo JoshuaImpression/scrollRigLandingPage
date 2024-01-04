@@ -35,6 +35,7 @@ export function Lens({ children, damping = 0.14, ...props }) {
     state.gl.setClearColor("#ecedef");
     state.gl.render(scene, state.camera);
     state.gl.setRenderTarget(null);
+    console.log(nodes);
   });
 
   return (
@@ -56,7 +57,7 @@ export function Lens({ children, damping = 0.14, ...props }) {
           ior={1.14}
           thickness={1.4}
           anisotropy={0.14}
-          chromaticAberration={0.14}
+          chromaticAberration={0.28}
           distortion={0.14}
           distortionScale={1.4}
           temporalDistortion={0.14}
